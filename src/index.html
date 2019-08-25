@@ -1,15 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+<!--vincular css, head. no olvidar -->
+</head>
+
+
+<body>
+
+<h1>¡BIENVENIDX!</h1>
+<p> </p>
+<p>En la siguiente página puedes resolver todas las dudas que tengas respecto a tu sexualidad.</p>
+<p>¡No tengas miedo de expresarte! Este es un espacio seguro en donde jamás serás juzgadx.</p>
+<p>Por este mismo motivo, ciframos tu mensaje.</p>
+<h2>👭👫👬</h2>
+
+<p>Selecciona un número (más abajo) si quieres contarnos algo relacionado a alguno de estos temas.</p>
+<p>Si quieres hablarnos sobre otra cosa, selecciona el número 6 ¡gracias por confiar en nosotrxs!</p>
+
+<div id="parrafo1">
+<p>
+    <strong>
+    1. Orientación Sexual<br>
+    2. Identidad de Género<br>
+    3. Salud Sexual<br>
+    4. Métodos Anticonceptivos<br>
+    5. Embarazo<br>
+    6. Otro<br>
+</strong>
+</p>
+</div>
+ 
+<p>Recuerda, del 1 al 6 aquí abajo.</p>
+<input type="number" id="offset" min="1" max="6">
+
+<div id="textBoxs">
+<textarea id="name" placeholder="Escribe aqui"></textarea>
+<textarea id="resultName"></textarea>
+</div>
+
+<button id="cifrarButton">Cifrar</button>
+<button id="descifrarButton">Descifrar</button>
+
+
+<div id="copyClean">
+<button id="copyButton">Copiar</button>
+<button id="cleanButton">Limpiar Texto</button>
+</div>
+
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+
+<!-- script siempre de lo ultimo -->
+
+</body>
+
 </html>
+ 
