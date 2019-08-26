@@ -8,9 +8,11 @@ window.cipher = {
         let cipher = (ascii - 65 + offset) % 26 + 65;
         result += String.fromCharCode (cipher);
         
+              
   }
   
   return result;
+
 
   },
 
@@ -27,3 +29,5 @@ window.cipher = {
   return resultDecode; 
 
 }}
+
+

@@ -34,20 +34,19 @@ document.getElementById("resultName").innerHTML = window.cipher.decode(offset,na
 });
 
 
-
-/* BOTON CLEAN TEXT
+// BOTON CLEAN TEXT
 
 const btnClean = document.getElementById("cleanButton");
-btnClean.addEventListener ("click", Clean);
+btnClean.addEventListener ("click", clean);
 
-function Clean () {
+function clean () {
     document.getElementById("offset").value="";
     document.getElementById("name").value="";
-    document.getElementbyId("resutName").value="";
+    document.getElementbyId("resultName").value="";
 }   
 
 
-// BOTON COPIAR
+/* BOTON COPIAR
 
 const btnCopy = document.getElementById("copyButton");
 btnCopy.addEventListener("click", () => {
